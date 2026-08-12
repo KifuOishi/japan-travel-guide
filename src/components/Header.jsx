@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import Navigation from './Navigation.jsx'
+import './Header.css'
 
 function Header() {
   return (

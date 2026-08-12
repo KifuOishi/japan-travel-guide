@@ -1,0 +1,10 @@
+.site-footer {
+  padding: 24px 6vw;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  background: var(--soft);
+}
+
+.site-footer p {
+  color: var(--muted);
+}

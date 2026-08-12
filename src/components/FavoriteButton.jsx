@@ -1,4 +1,5 @@
 import { useFavorites } from '../hooks/useFavorites.js'
+import './FavoriteButton.css'
 
 function FavoriteButton({ attraction }) {
   const { isFavorite, toggleFavorite } = useFavorites()

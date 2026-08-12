@@ -1,0 +1,36 @@
+.region-card {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  background: var(--white);
+  box-shadow: 0 12px 30px rgba(15, 39, 66, 0.08);
+}
+
+.region-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 34px rgba(15, 39, 66, 0.12);
+}
+
+.region-card img {
+  width: 100%;
+  height: 210px;
+  display: block;
+  object-fit: cover;
+  background: var(--soft);
+}
+
+.region-card-content {
+  padding: 18px;
+}
+
+.region-card h2 {
+  margin: 0 0 8px;
+  color: var(--navy);
+}
+
+.region-card p {
+  color: var(--muted);
+}

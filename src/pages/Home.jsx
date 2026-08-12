@@ -1,5 +1,6 @@
 import RegionCard from '../components/RegionCard.jsx'
 import attractions from '../data/attractions.json'
+import './Home.css'
 
 const regions = ['Tokyo', 'Kyoto', 'Osaka', 'Fukuoka', 'Hokkaido']
 

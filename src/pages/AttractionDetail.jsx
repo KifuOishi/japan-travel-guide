@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import FavoriteButton from "../components/FavoriteButton.jsx";
+import "./AttractionDetail.css";
 
 const fallbackImage =
   "https://placehold.co/1200x700/f4f6f8/0f2742?text=Japan+Attraction";

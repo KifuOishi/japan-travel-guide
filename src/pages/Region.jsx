@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import AttractionCard from "../components/AttractionCard.jsx";
+import "./Region.css";
 
 function Region() {
   const { regionName } = useParams();

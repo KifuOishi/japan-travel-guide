@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import './RegionCard.css'
 
 function RegionCard({ region, image, attractionCount }) {
   return (

@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import FavoriteButton from './FavoriteButton.jsx'
+import './AttractionCard.css'
 
 const fallbackImage =
   'https://placehold.co/900x600/f4f6f8/0f2742?text=Japan+Attraction'
