@@ -1,14 +1,26 @@
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
 .page-intro {
-  max-width: 720px;
   margin-bottom: 32px;
 }
 
+.page-intro h1 {
+  font-size: 3.5rem;
+  line-height: 1.05;
+  margin: 10px 0 14px;
+  max-width: 600px;
+}
+
 .page-intro p {
-  color: var(--muted);
+  color: #526579;
 }
 
 .region-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  gap: 22px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
 }

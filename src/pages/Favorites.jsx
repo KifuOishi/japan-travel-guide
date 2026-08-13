@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import AttractionCard from '../components/AttractionCard.jsx'
 import { useFavorites } from '../hooks/useFavorites.js'
-import './Favorites.css'
 
 function Favorites() {
   const { favorites } = useFavorites()
